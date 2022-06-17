@@ -6,7 +6,7 @@
 
 <img src="./JordanShoes.png"/>
 
-<h4 align="center"><a href="https://devjoaogabriel.github.io/JordanShoes/">Clique para visitar o projeto</a></h4>
+<h4 align="center"><a href="https://devjoaogabriel.github.io/jordan-shoes/">Clique para visitar o projeto</a></h4>
 
 ---
 
