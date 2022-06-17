@@ -1,0 +1,37 @@
+@media (max-width: 768px) {
+    .text-center {
+        font-size: 1.6rem;
+        line-height: 196.19%;
+    }
+    .title {
+        font-size: 2.4rem;
+        line-height: 196.19%;
+    }
+    .text-figure h2 {
+        font-size: 3.4rem;
+        line-height: 3.4rem;
+    }
+    .text-figure p {
+        font-size: 1.6rem;
+        line-height: 180%;
+    }
+    .highlights h2 {
+        font-size: 2.8rem;
+        line-height: 196.19%;
+    }
+    .highlights p {
+        font-size: 1.8rem;
+        line-height: 180%;
+    }
+    .space-footer {
+        font-size: 1.8rem;
+        line-height: 196.19%;
+    }
+    .text-figure {
+        min-width: 320px;
+        margin-left: 5%;    
+    }
+    .background-image {
+        background: url(../img/background-mobile.png) no-repeat center/cover;
+    }
+}
