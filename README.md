@@ -4,7 +4,7 @@
 
 ---
 
-<img src=".gitbub/preview.png"/>
+<img src=".github/preview.png"/>
 
 <h4 align="center"><a href="https://jordan-shoes-seven.vercel.app">Clique para visitar o projeto</a></h4>
 
