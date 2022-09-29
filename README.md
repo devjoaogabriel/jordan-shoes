@@ -4,7 +4,7 @@
 
 ---
 
-<img src="./JordanShoes.png"/>
+<img src=".gitbub/preview.png"/>
 
 <h4 align="center"><a href="https://devjoaogabriel.github.io/jordan-shoes/">Clique para visitar o projeto</a></h4>
 

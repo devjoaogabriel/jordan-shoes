@@ -32,6 +32,7 @@ html,
 body {
     text-rendering: optimizelegibility;
     -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -40,6 +41,7 @@ body {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 .header {
@@ -49,10 +51,14 @@ a {
     height: 6.0rem;
     width: 100%;
     min-width: 370px;
+    box-shadow: 0 4px 10px rgba(102, 102, 102, 0.267);
 }
 
 .first {
     background: var(--black-color);
+    position: fixed;
+    top: 0;
+    z-index: 2;
 }
 
 .text-center {
@@ -67,12 +73,18 @@ a {
 
 .secund {
     background: var(--white-color);
+    position: fixed;
+    top: 6rem;
+    z-index: 2;
+}
+
+.spacing-header {
+    height: 12.1rem;
 }
 
 .background-image {
     display: flex;
     align-items: center;
-    justify-content: left;
     height: 378px;
     background: url(../img/background.png) no-repeat center/cover;
     filter: brightness(60%);
@@ -137,7 +149,8 @@ a {
     align-items: center;
     justify-content: center;
     background: var(--gray-color);
-    transition: ease-in-out 300ms;
+    cursor: pointer;
+    transition: all ease-in .3s;
 }
 
 .highlights h2 {
@@ -168,10 +181,7 @@ a {
     color: var(--white-color);
 }
 
-/* PSEUDOCLASS SECTION */
-
-.box:hover,
-.box:enabled {
-    cursor: pointer;
-    box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.267);
+.box:hover {
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    background-color: var(--white-color);
 }
